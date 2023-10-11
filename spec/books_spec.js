@@ -17,14 +17,14 @@ describe("Book endpoint testing", function () {
             });
         });
     });
-    // describe("GET Books", () => {
-    //     it("returns status code 404",  (done) => {
-    //         request.get(base_url + 'books', (error, response, body) => {
-    //             expect(response.statusCode).toBe(404);
-    //             done();
-    //         });
-    //     });
-    // });
+    describe("GET Books", () => {
+        it("returns status code 404",  (done) => {
+            request.get(base_url + 'xyz', (error, response, body) => {
+                expect(response.statusCode).toBe(404);
+                done();
+            });
+        });
+    });
     describe("Get /books/all/:location", () => {
         it("should return final books with India tax.", (done) => {
             request.get(base_url + 'books/all/IN', (error, response, body) => {
