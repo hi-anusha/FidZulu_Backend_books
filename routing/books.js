@@ -44,7 +44,7 @@ router.get('/all/:location?', function(req, res, next) {
         else if (location === 'US-NC') {
             json_result = calculateTax(json_result, 8);
         }else {
-            console.log('not a valid location');
+            return res.status(400).json({error: 'Bad Request' });
         }
     }
 
