@@ -17,7 +17,7 @@ describe("Book endpoint testing", function () {
             });
         });
     });
-    describe("GET Books", () => {
+    describe("GET Books negative testing", () => {
         it("returns status code 404",  (done) => {
             request.get(base_url + 'xyz', (error, response, body) => {
                 expect(response.statusCode).toBe(404);
@@ -35,7 +35,7 @@ describe("Book endpoint testing", function () {
             });
         })
         it("should return prices with Ireland tax", (done) => {
-            request.get(base_url + 'books/all/IE', (errpr, response, body) => {
+            request.get(base_url + 'books/all/IE', (error, response, body) => {
                 expect(response.statusCode).toBe(200);
                 expect(response.body).toContain("The Great Gatsby");
                 expect(response.body).toContain("13.517700000000001");
@@ -54,7 +54,7 @@ describe("Book endpoint testing", function () {
             });
         })
         it("should return prices with India tax", (done) => {
-            request.get(base_url + 'books/all/IN?brand=VintageBooks', (errpr, response, body) => {
+            request.get(base_url + 'books/all/IN?brand=VintageBooks', (error, response, body) => {
                 expect(response.statusCode).toBe(200);
                 expect(response.body).toContain("The Great Gatsby");
                 expect(response.body).toContain("Classic literature, wealth, love, betrayal");

@@ -32,8 +32,7 @@ router.get('/all/:location?', function(req, res, next) {
     let json_result = JSON.parse(read_json_file());
 
     let location = req.params.location;
-    const {minprice, maxprice, rating, brand} = req.query;
-
+   
     if (location) {
       
         if (location === 'IN') {
@@ -43,14 +42,14 @@ router.get('/all/:location?', function(req, res, next) {
             json_result = calculateTax(json_result, 23);
         } 
         else if (location === 'US-NC') {
-           
             json_result = calculateTax(json_result, 8);
         }else {
             console.log('not a valid location');
         }
     }
 
-    
+    const {minprice, maxprice, rating, brand} = req.query;
+
 
     const filteredData = json_result.filter((book) => {
         if (minprice !== undefined && book.price < minprice) {
@@ -80,12 +79,7 @@ router.get('/team', function(req, res, next) {
     res.json(team)
 })
 
-router.get('/search',(req,res,next)=>{
-   
-    let jsonResult = JSON.parse(read_json_file());
-    
-     
-});
+
 
 
 
