@@ -1,723 +1,362 @@
 [
-
-    {
-
-      "productName": "The Great Gatsby",
-
-      "productDescription": "A novel by F. Scott Fitzgerald. Set in the Roaring Twenties, The Great Gatsby is a classic tale of wealth, love, and betrayal. Follow the enigmatic Jay Gatsby as he pursues the American Dream amidst opulence and decadence.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/640px-The_Great_Gatsby_Cover_1925_Retouched.jpg",
-
-      "productId": 1,
-
-      "brand": "VintageBooks",
-
-      "price": 10.99,
-
-      "taxPercentage": 8,
-
-      "rating": 4.5,
-
-      "metadata": "Classic literature, wealth, love, betrayal",
-
-      "timestamp": "10-10-23"
-
-    },
-
-    {
-
-      "productName": "To Kill a Mockingbird",
-
-      "productDescription": "A novel by Harper Lee. To Kill a Mockingbird explores issues of racism and moral growth in the American South. Join Scout Finch as she learns valuable life lessons from her father, Atticus Finch.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/640px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
-
-      "productId": 2,
-
-      "brand": "HarperPerennial",
-
-      "price": 12.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.8,
-
-      "metadata": "Classic literature, racism, moral growth",
-
-      "timestamp": "11-10-23"
-
-    },
-
-    {
-
-      "productName": "1984",
-
-      "productDescription": "A novel by George Orwell. 1984 is a dystopian classic that explores the dangers of totalitarianism and surveillance in a bleak future. Follow Winston Smith as he rebels against the oppressive Party.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Nineteen_Eighty-Four_cover_Soviet_1984.jpg/640px-Nineteen_Eighty-Four_cover_Soviet_1984.jpg1984.jpg",
-
-      "productId": 3,
-
-      "brand": "PenguinBooks",
-
-      "price": 9.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.7,
-
-      "metadata": "Dystopian fiction, totalitarianism, surveillance",
-
-      "timestamp": "12-10-23"
-
-    },
-
-    {
-
-      "productName": "The Catcher in the Rye",
-
-      "productDescription": "A novel by J.D. Salinger. Follow the adventures of Holden Caulfield, a disillusioned teenager navigating the complexities of adolescence in New York City.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Catcher-in-the-rye-red-cover.jpg/640px-Catcher-in-the-rye-red-cover.jpg",
-
-      "productId": 4,
-
-      "brand": "LittleBrown",
-
-      "price": 11.99,
-
-      "taxPercentage": 8,
-
-      "rating": 4.3,
-
-      "metadata": "Comingofage, adolescence, NewYorkCity",
-
-      "timestamp": "13-10-23"
-
-    },
-
-    {
-
-      "productName": "Pride and Prejudice",
-
-      "productDescription": "A novel by Jane Austen. Dive into the world of matchmaking and societal expectations in 19th-century England as Elizabeth Bennet and Mr. Darcy navigate love and class.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/640px-PrideAndPrejudiceTitlePage.jpg",
-
-      "productId": 5,
-
-      "brand": "PenguinClassics",
-
-      "price": 10.49,
-
-      "taxPercentage": 7,
-
-      "rating": 4.6,
-
-      "metadata": "Classicliterature, love, class, matchmaking",
-
-      "timestamp": "14-10-23"
-
-    },
-
-    {
-
-      "productName": "The Hobbit",
-
-      "productDescription": "A novel by J.R.R. Tolkien. Embark on a grand adventure with Bilbo Baggins as he joins a group of dwarves to reclaim their homeland from the fearsome dragon, Smaug.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Hobbit_%281982%29.png/640px-The_Hobbit_%281982%29.png",
-
-      "productId": 6,
-
-      "brand": "MarinerBooks",
-
-      "price": 14.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.9,
-
-      "metadata": "Fantasy, adventure, dragon",
-
-      "timestamp": "15-10-23"
-
-    },
-
-    {
-
-      "productName": "The Lord of the Rings",
-
-      "productDescription": "A trilogy by J.R.R. Tolkien. Join Frodo Baggins on his epic quest to destroy the One Ring and save Middle-earth from the dark lord Sauron.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_rose_and_the_ring%3B_or%2C_The_history_of_Prince_Giglio_and_Prince_Bulbo%3B_a_fireside_pantomime_for_great_and_small_children_%281901%29_%2814591638938%29.jpg/640px-The_rose_and_the_ring%3B_or%2C_The_history_of_Prince_Giglio_and_Prince_Bulbo%3B_a_fireside_pantomime_for_great_and_small_children_%281901%29_%2814591638938%29.jpg",
-
-      "productId": 7,
-
-      "brand": "MarinerBooks",
-
-      "price": 24.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.8,
-
-      "metadata": "Fantasy, epic quest, Middle-earth",
-
-      "timestamp": "16-10-23"
-
-    },
-
-    {
-
-      "productName": "Harry Potter and the Sorcerer's Stone",
-
-      "productDescription": "A novel by J.K. Rowling. Enter the enchanting world of wizards and witches as Harry Potter discovers his magical heritage at Hogwarts School of Witchcraft and Wizardry.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Harry_Potter.jpg/640px-Harry_Potter.jpg",
-
-      "productId": 8,
-
-      "brand": "Scholastic",
-
-      "price": 12.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.7,
-
-      "metadata": "Fantasy, magic, Hogwarts",
-
-      "timestamp": "17-10-23"
-
-    },
-
-    {
-
-      "productName": "Moby-Dick",
-
-      "productDescription": "A novel by Herman Melville. Join Captain Ahab on a relentless pursuit of the great white whale, Moby-Dick, in this epic tale of obsession and revenge.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Moby_Dick_for_Wikicommons.jpg/640px-Moby_Dick_for_Wikicommons.jpg",
-
-      "productId": 9,
-
-      "brand": "HarperPerennial",
-
-      "price": 13.99,
-
-      "taxPercentage": 8,
-
-      "rating": 4.4,
-
-      "metadata": "Adventure, obsession, revenge",
-
-      "timestamp": "18-10-23"
-
-    },
-
-    {
-
-      "productName": "The Hunger Games",
-
-      "productDescription": "A novel by Suzanne Collins. Enter the dystopian world of Panem, where Katniss Everdeen fights for survival in the brutal Hunger Games arena.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_hunger_games.svg/640px-The_hunger_games.svg.png",
-
-      "productId": 10,
-
-      "brand": "ScholasticPress",
-
-      "price": 11.49,
-
-      "taxPercentage": 7,
-
-      "rating": 4.5,
-
-      "metadata": "Dystopian fiction, survival, Hunger Games",
-
-      "timestamp": "19-10-23"
-
-    },
-
-    {
-
-      "productName": "Brave New World",
-
-      "productDescription": "A novel by Aldous Huxley. Explore a futuristic world where conformity and pleasure are prized above all else, but at what cost to individuality?",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Giveaway_von_Pinguin_Books_f%C3%BCr_Brave_New_World_%28cropped%29.jpg/640px-Giveaway_von_Pinguin_Books_f%C3%BCr_Brave_New_World_%28cropped%29.jpg",
-
-      "productId": 11,
-
-      "brand": "HarperPerennial",
-
-      "price": 9.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.6,
-
-      "metadata": "Dystopian fiction, conformity, pleasure",
-
-      "timestamp": "20-10-23"
-
-    },
-
-    {
-
-      "productName": "Fahrenheit 451",
-
-      "productDescription": "A novel by Ray Bradbury. Follow the journey of Guy Montag, a fireman tasked with burning books in a society that suppresses knowledge and free thought.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/FAHRENHEIT_451_by_Ray_Bradbury%2C_Corgi_1957._160_pages._Cover_by_John_Richards.jpg/640px-FAHRENHEIT_451_by_Ray_Bradbury%2C_Corgi_1957._160_pages._Cover_by_John_Richards.jpg",
-
-      "productId": 12,
-
-      "brand": "Simon&Schuster",
-
-      "price": 10.99,
-
-      "taxPercentage": 8,
-
-      "rating": 4.5,
-
-      "metadata": "Dystopian fiction, censorship, free thought",
-
-      "timestamp": "21-10-23"
-
-    },
-
-    {
-
-      "productName": "The Road",
-
-      "productDescription": "A novel by Cormac McCarthy. Journey through a post-apocalyptic world with a father and son as they struggle for survival and seek hope in a bleak landscape.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/The-road.jpg/640px-The-road.jpg",
-
-      "productId": 13,
-
-      "brand": "VintageBooks",
-
-      "price": 11.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.8,
-
-      "metadata": "Post-apocalyptic fiction, survival, hope",
-
-      "timestamp": "22-10-23"
-
-    },
-
-    {
-
-      "productName": "The Shining",
-
-      "productDescription": "A novel by Stephen King. Experience the terror and supernatural events that unfold when the Torrance family becomes the winter caretakers of the haunted Overlook Hotel.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/The_Shining_%281977%29_dust_jacket%2C_first_edition.jpg/640px-The_Shining_%281977%29_dust_jacket%2C_first_edition.jpg",
-
-      "productId": 14,
-
-      "brand": "AnchorBooks",
-
-      "price": 12.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.7,
-
-      "metadata": "Horror, supernatural, haunted hotel",
-
-      "timestamp": "23-10-23"
-
-    },
-
-    {
-
-      "productName": "The Road Not Taken and Other Poems",
-
-      "productDescription": "A collection by Robert Frost. Immerse yourself in the lyrical beauty of Robert Frost's poems, including the timeless 'The Road Not Taken.'",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Poems_of_emotional_love%2C_and_other_poems_%281907%29_%2814801169873%29.jpg/640px-Poems_of_emotional_love%2C_and_other_poems_%281907%29_%2814801169873%29.jpg",
-
-      "productId": 15,
-
-      "brand": "DoverPublications",
-
-      "price": 7.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.5,
-
-      "metadata": "Poetry, lyrical, Robert Frost",
-
-      "timestamp": "24-10-23"
-
-    },
-
-    {
-
-      "productName": "The Odyssey",
-
-      "productDescription": "An epic poem by Homer. Join Odysseus on his epic journey home from the Trojan War as he faces mythical creatures, gods, and challenges of heroism.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Space_Odyssey_Benson_cover.jpg/640px-Space_Odyssey_Benson_cover.jpg",
-
-      "productId": 16,
-
-      "brand": "PenguinClassics",
-
-      "price": 10.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.6,
-
-      "metadata": "Classicliterature, epic journey, heroism",
-
-      "timestamp": "25-10-23"
-
-    },
-
-    {
-
-      "productName": "One Hundred Years of Solitude",
-
-      "productDescription": "A novel by Gabriel García Márquez. Dive into the magical world of the Buendía family and the town of Macondo, where reality and fantasy blend in a mesmerizing narrative.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cienanosdesoledad.jpg/640px-Cienanosdesoledad.jpg",
-
-      "productId": 17,
-
-      "brand": "HarperPerennial",
-
-      "price": 13.99,
-
-      "taxPercentage": 8,
-
-      "rating": 4.7,
-
-      "metadata": "Magicalrealism, Buendía family, Macondo",
-
-      "timestamp": "26-10-23"
-
-    },
-
-    {
-
-      "productName": "The Alchemist",
-
-      "productDescription": "A novel by Paulo Coelho. Follow Santiago, a shepherd boy, on his journey of self-discovery and spiritual awakening as he searches for a hidden treasure.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Alchemist_in_his_workshop_by_David_Rijckaert_%28III%29.jpg/640px-Alchemist_in_his_workshop_by_David_Rijckaert_%28III%29.jpg",
-
-      "productId": 18,
-
-      "brand": "HarperOne",
-
-      "price": 9.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.8,
-
-      "metadata": "Inspirationalfiction, self-discovery, spiritual awakening",
-
-      "timestamp": "27-10-23"
-
-    },
-
-    {
-
-      "productName": "The Book Thief",
-
-      "productDescription": "A novel by Markus Zusak. Set in Nazi Germany, The Book Thief tells the story of Liesel Meminger, a young girl who finds solace in stealing books and sharing their stories.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Thief_of_Bagdad_Comic_Cover.jpg/640px-The_Thief_of_Bagdad_Comic_Cover.jpg",
-
-      "productId": 19,
-
-      "brand": "KnopfBooks",
-
-      "price": 11.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.6,
-
-      "metadata": "Historicalfiction, Nazi Germany, book theft",
-
-      "timestamp": "28-10-23"
-
-    },
-
-    {
-
-      "productName": "The Road Less Traveled",
-
-      "productDescription": "A self-help book by M. Scott Peck. Explore the path of personal growth, self-discipline, and love as M. Scott Peck provides valuable insights into living a fulfilling life.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Campbell%27s_new_revised_third_edition_complete_guide_and_descriptive_book_of_the_Yellowstone_Park_%281916%29_%2814774455251%29.jpg/640px-Campbell%27s_new_revised_third_edition_complete_guide_and_descriptive_book_of_the_Yellowstone_Park_%281916%29_%2814774455251%29.jpg",
-
-      "productId": 20,
-
-      "brand": "Touchstone",
-
-      "price": 8.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.5,
-
-      "metadata": "Self-help, personal growth, self-discipline",
-
-      "timestamp": "29-10-23"
-
-    },
-
-    {
-
-      "productName": "The Name of the Wind",
-
-      "productDescription": "A novel by Patrick Rothfuss. Follow the tale of Kvothe, a gifted musician, and wizard, as he recounts his life's adventures, magic, and the pursuit of knowledge.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/At_the_back_of_the_North_Wind_%281919%29_%2814753237225%29.jpg/640px-At_the_back_of_the_North_Wind_%281919%29_%2814753237225%29.jpg",
-
-      "productId": 21,
-
-      "brand": "DAWBooks",
-
-      "price": 13.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.7,
-
-      "metadata": "Fantasy, music, wizardry",
-
-      "timestamp": "30-10-23"
-
-    },
-
-    {
-
-      "productName": "The Road to Serfdom",
-
-      "productDescription": "A political philosophy book by Friedrich Hayek. Delve into the ideas of individualism, liberty, and the dangers of collectivism in this influential work of political philosophy.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/The-Road-to-Serfdom-First-Edition1.jpg/640px-The-Road-to-Serfdom-First-Edition1.jpg",
-
-      "productId": 22,
-
-      "brand": "UniversityofChicagoPress",
-
-      "price": 9.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.6,
-
-      "metadata": "Politicalphilosophy, individualism, liberty",
-
-      "timestamp": "31-10-23"
-
-    },
-
-    {
-
-      "productName": "The Stranger",
-
-      "productDescription": "A novel by Albert Camus. Follow Meursault, an emotionally detached Algerian, as he navigates life's absurdities and faces the consequences of his actions.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/The_mysterious_stranger_%281922%29_%2814597343110%29.jpg/640px-The_mysterious_stranger_%281922%29_%2814597343110%29.jpg",
-
-      "productId": 23,
-
-      "brand": "VintageInternational",
-
-      "price": 10.99,
-
-      "taxPercentage": 8,
-
-      "rating": 4.5,
-
-      "metadata": "Absurdism, existentialism, emotional detachment",
-
-      "timestamp": "01-11-23"
-
-    },
-
-    {
-
-      "productName": "The Martian",
-
-      "productDescription": "A novel by Andy Weir. Join Mark Watney, an astronaut stranded on Mars, as he uses his ingenuity and humor to survive while awaiting rescue.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_Martian_%28Weir_novel%29.jpg/640px-The_Martian_%28Weir_novel%29.jpg",
-
-      "productId": 24,
-
-      "brand": "BroadwayBooks",
-
-      "price": 11.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.7,
-
-      "metadata": "Sciencefiction, Mars, survival",
-
-      "timestamp": "02-11-23"
-
-    },
-
-    {
-
-      "productName": "The Hitchhiker's Guide to the Galaxy",
-
-      "productDescription": "A humorous science fiction series by Douglas Adams. Join Arthur Dent as he embarks on a hilarious intergalactic journey with the help of the Hitchhiker's Guide.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Galaxy_196208.jpg/640px-Galaxy_196208.jpg",
-
-      "productId": 25,
-
-      "brand": "DelReyBooks",
-
-      "price": 12.49,
-
-      "taxPercentage": 7,
-
-      "rating": 4.6,
-
-      "metadata": "Sciencefiction, humor, intergalactic",
-
-      "timestamp": "03-11-23"
-
-    },
-
-    {
-
-      "productName": "The Catcher in the Rye",
-
-      "productDescription": "A novel by J.D. Salinger. Follow the adventures of Holden Caulfield, a disillusioned teenager navigating the complexities of adolescence in New York City.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Catcher-in-the-rye-red-cover.jpg/640px-Catcher-in-the-rye-red-cover.jpg",
-
-      "productId": 26,
-
-      "brand": "LittleBrown",
-
-      "price": 11.99,
-
-      "taxPercentage": 8,
-
-      "rating": 4.3,
-
-      "metadata": "Comingofage, adolescence, NewYorkCity",
-
-      "timestamp": "04-11-23"
-
-    },
-
-    {
-
-      "productName": "Pride and Prejudice",
-
-      "productDescription": "A novel by Jane Austen. Dive into the world of matchmaking and societal expectations in 19th-century England as Elizabeth Bennet and Mr. Darcy navigate love and class.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/640px-PrideAndPrejudiceTitlePage.jpg",
-
-      "productId": 27,
-
-      "brand": "PenguinClassics",
-
-      "price": 10.49,
-
-      "taxPercentage": 7,
-
-      "rating": 4.6,
-
-      "metadata": "Classicliterature, love, class, matchmaking",
-
-      "timestamp": "05-11-23"
-
-    },
-
-    {
-
-      "productName": "The Hobbit",
-
-      "productDescription": "A novel by J.R.R. Tolkien. Embark on a grand adventure with Bilbo Baggins as he joins a group of dwarves to reclaim their homeland from the fearsome dragon, Smaug.",
-
-      "imgThumbnail": "thttps://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/The_Hobbit_-_title_page_of_first_American_print.jpg/640px-The_Hobbit_-_title_page_of_first_American_print.jpg",
-
-      "productId": 28,
-
-      "brand": "MarinerBooks",
-
-      "price": 14.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.9,
-
-      "metadata": "Fantasy, adventure, dragon",
-
-      "timestamp": "06-11-23"
-
-    },
-
-    {
-
-      "productName": "The Lord of the Rings",
-
-      "productDescription": "A trilogy by J.R.R. Tolkien. Join Frodo Baggins on his epic quest to destroy the One Ring and save Middle-earth from the dark lord Sauron.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/El_Se%C3%B1or_de_los_Anillos_lectura.jpg/640px-El_Se%C3%B1or_de_los_Anillos_lectura.jpg",
-
-      "productId": 29,
-
-      "brand": "MarinerBooks",
-
-      "price": 24.99,
-
-      "taxPercentage": 6,
-
-      "rating": 4.8,
-
-      "metadata": "Fantasy, epic quest, Middle-earth",
-
-      "timestamp": "07-11-23"
-
-    },
-
-    {
-
-      "productName": "Harry Potter and the Sorcerer's Stone",
-
-      "productDescription": "A novel by J.K. Rowling. Enter the enchanting world of wizards and witches as Harry Potter discovers his magical heritage at Hogwarts School of Witchcraft and Wizardry.",
-
-      "imgThumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Harry_Potter_Lightning.svg/640px-Harry_Potter_Lightning.svg.png",
-
-      "productId": 30,
-
-      "brand": "Scholastic",
-
-      "price": 12.99,
-
-      "taxPercentage": 7,
-
-      "rating": 4.7,
-
-      "metadata": "Fantasy, magic, Hogwarts",
-
-      "timestamp": "08-11-23"
-
-    }
-
-  ]
+  {
+    "product_name": "The Great Gatsby",
+    "product_description": "A novel by F. Scott Fitzgerald. Set in the Roaring Twenties, The Great Gatsby is a classic tale of wealth, love, and betrayal. Follow the enigmatic Jay Gatsby as he pursues the American Dream amidst opulence and decadence.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/640px-The_Great_Gatsby_Cover_1925_Retouched.jpg",
+    "product_id": 1,
+    "brand": "VintageBooks",
+    "price": 10.99,
+    "tax_percentage": 8,
+    "rating": 4.5,
+    "metadata": "Classic literature, wealth, love, betrayal",
+    "timestamp": "10-10-23"
+  },
+  {
+    "product_name": "To Kill a Mockingbird",
+    "product_description": "A novel by Harper Lee. To Kill a Mockingbird explores issues of racism and moral growth in the American South. Join Scout Finch as she learns valuable life lessons from her father, Atticus Finch.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/640px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+    "product_id": 2,
+    "brand": "HarperPerennial",
+    "price": 12.99,
+    "tax_percentage": 7,
+    "rating": 4.8,
+    "metadata": "Classic literature, racism, moral growth",
+    "timestamp": "11-10-23"
+  },
+  {
+    "product_name": "1984",
+    "product_description": "A novel by George Orwell. 1984 is a dystopian classic that explores the dangers of totalitarianism and surveillance in a bleak future. Follow Winston Smith as he rebels against the oppressive Party.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Nineteen_Eighty-Four_cover_Soviet_1984.jpg/640px-Nineteen_Eighty-Four_cover_Soviet_1984.jpg1984.jpg",
+    "product_id": 3,
+    "brand": "PenguinBooks",
+    "price": 9.99,
+    "tax_percentage": 6,
+    "rating": 4.7,
+    "metadata": "Dystopian fiction, totalitarianism, surveillance",
+    "timestamp": "12-10-23"
+  },
+  {
+    "product_name": "The Catcher in the Rye",
+    "product_description": "A novel by J.D. Salinger. Follow the adventures of Holden Caulfield, a disillusioned teenager navigating the complexities of adolescence in New York City.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Catcher-in-the-rye-red-cover.jpg/640px-Catcher-in-the-rye-red-cover.jpg",
+    "product_id": 4,
+    "brand": "LittleBrown",
+    "price": 11.99,
+    "tax_percentage": 8,
+    "rating": 4.3,
+    "metadata": "Comingofage, adolescence, NewYorkCity",
+    "timestamp": "13-10-23"
+  },
+  {
+    "product_name": "Pride and Prejudice",
+    "product_description": "A novel by Jane Austen. Dive into the world of matchmaking and societal expectations in 19th-century England as Elizabeth Bennet and Mr. Darcy navigate love and class.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/640px-PrideAndPrejudiceTitlePage.jpg",
+    "product_id": 5,
+    "brand": "PenguinClassics",
+    "price": 10.49,
+    "tax_percentage": 7,
+    "rating": 4.6,
+    "metadata": "Classicliterature, love, class, matchmaking",
+    "timestamp": "14-10-23"
+  },
+  {
+    "product_name": "The Hobbit",
+    "product_description": "A novel by J.R.R. Tolkien. Embark on a grand adventure with Bilbo Baggins as he joins a group of dwarves to reclaim their homeland from the fearsome dragon, Smaug.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Hobbit_%281982%29.png/640px-The_Hobbit_%281982%29.png",
+    "product_id": 6,
+    "brand": "MarinerBooks",
+    "price": 14.99,
+    "tax_percentage": 6,
+    "rating": 4.9,
+    "metadata": "Fantasy, adventure, dragon",
+    "timestamp": "15-10-23"
+  },
+  {
+    "product_name": "The Lord of the Rings",
+    "product_description": "A trilogy by J.R.R. Tolkien. Join Frodo Baggins on his epic quest to destroy the One Ring and save Middle-earth from the dark lord Sauron.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_rose_and_the_ring%3B_or%2C_The_history_of_Prince_Giglio_and_Prince_Bulbo%3B_a_fireside_pantomime_for_great_and_small_children_%281901%29_%2814591638938%29.jpg/640px-The_rose_and_the_ring%3B_or%2C_The_history_of_Prince_Giglio_and_Prince_Bulbo%3B_a_fireside_pantomime_for_great_and_small_children_%281901%29_%2814591638938%29.jpg",
+    "product_id": 7,
+    "brand": "MarinerBooks",
+    "price": 24.99,
+    "tax_percentage": 6,
+    "rating": 4.8,
+    "metadata": "Fantasy, epic quest, Middle-earth",
+    "timestamp": "16-10-23"
+  },
+  {
+    "product_name": "Harry Potter and the Sorcerer's Stone",
+    "product_description": "A novel by J.K. Rowling. Enter the enchanting world of wizards and witches as Harry Potter discovers his magical heritage at Hogwarts School of Witchcraft and Wizardry.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Harry_Potter.jpg/640px-Harry_Potter.jpg",
+    "product_id": 8,
+    "brand": "Scholastic",
+    "price": 12.99,
+    "tax_percentage": 7,
+    "rating": 4.7,
+    "metadata": "Fantasy, magic, Hogwarts",
+    "timestamp": "17-10-23"
+  },
+  {
+    "product_name": "The Shining",
+    "product_description": "A novel by Stephen King. Follow Jack Torrance as he takes a job as the winter caretaker at the isolated Overlook Hotel, where supernatural forces threaten his sanity and his family.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shiningnovel.jpg/640px-Shiningnovel.jpg",
+    "product_id": 9,
+    "brand": "Anchor",
+    "price": 13.49,
+    "tax_percentage": 6,
+    "rating": 4.6,
+    "metadata": "Horror, supernatural, isolation",
+    "timestamp": "18-10-23"
+  },
+  {
+    "product_name": "Moby-Dick",
+    "product_description": "A novel by Herman Melville. Join Captain Ahab on a vengeful quest to hunt down the giant white whale, Moby Dick, in this epic tale of obsession and the sea.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Moby-Dick_FE_title_page.jpg/640px-Moby-Dick_FE_title_page.jpg",
+    "product_id": 10,
+    "brand": "PenguinClassics",
+    "price": 11.99,
+    "tax_percentage": 8,
+    "rating": 4.5,
+    "metadata": "Adventure, obsession, sea",
+    "timestamp": "19-10-23"
+  },
+  {
+    "product_name": "The Da Vinci Code",
+    "product_description": "A novel by Dan Brown. Join Robert Langdon as he unravels a web of ancient mysteries, religious secrets, and art history in a quest to solve a murder in the Louvre Museum.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_Da_Vinci_Code_-_U.S._first_edition_cover.jpg/640px-The_Da_Vinci_Code_-_U.S._first_edition_cover.jpg",
+    "product_id": 11,
+    "brand": "Anchor",
+    "price": 14.99,
+    "tax_percentage": 7,
+    "rating": 4.7,
+    "metadata": "Mystery, art history, religion",
+    "timestamp": "20-10-23"
+  },
+  {
+    "product_name": "The Alchemist",
+    "product_description": "A novel by Paulo Coelho. Santiago's journey to discover his personal legend unfolds as he embarks on a quest for treasure in the Egyptian desert.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Paulo_Coelho_-_The_Alchemist.jpg/640px-Paulo_Coelho_-_The_Alchemist.jpg",
+    "product_id": 12,
+    "brand": "HarperOne",
+    "price": 9.99,
+    "tax_percentage": 6,
+    "rating": 4.8,
+    "metadata": "Quest, personal legend, treasure",
+    "timestamp": "21-10-23"
+  },
+  {
+    "product_name": "A Song of Ice and Fire",
+    "product_description": "A series by George R.R. Martin. Dive into the epic world of Westeros, where noble families vie for control of the Iron Throne and an ancient threat looms beyond the Wall.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/A_Song_of_Ice_and_Fire_%28book_series_cover%29.png/640px-A_Song_of_Ice_and_Fire_%28book_series_cover%29.png",
+    "product_id": 13,
+    "brand": "Bantam",
+    "price": 24.99,
+    "tax_percentage": 8,
+    "rating": 4.9,
+    "metadata": "Fantasy, epic, politics",
+    "timestamp": "22-10-23"
+  },
+  {
+    "product_name": "The Hunger Games",
+    "product_description": "A series by Suzanne Collins. Follow Katniss Everdeen as she battles for survival in the deadly Hunger Games arena, set in a dystopian future where districts fight for their lives.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/The_Hunger_Games_%28series%29.jpg/640px-The_Hunger_Games_%28series%29.jpg",
+    "product_id": 14,
+    "brand": "Scholastic",
+    "price": 12.99,
+    "tax_percentage": 7,
+    "rating": 4.6,
+    "metadata": "Dystopian, survival, dystopian future",
+    "timestamp": "23-10-23"
+  },
+  {
+    "product_name": "Brave New World",
+    "product_description": "A novel by Aldous Huxley. Explore a dystopian world of genetic engineering, psychological conditioning, and societal stability, where one man challenges the status quo.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/BraveNewWorld_FirstEdition.jpg/640px-BraveNewWorld_FirstEdition.jpg",
+    "product_id": 15,
+    "brand": "HarperPerennial",
+    "price": 14.49,
+    "tax_percentage": 6,
+    "rating": 4.7,
+    "metadata": "Dystopian, genetic engineering, conditioning",
+    "timestamp": "24-10-23"
+  },
+  {
+    "product_name": "The Girl with the Dragon Tattoo",
+    "product_description": "A novel by Stieg Larsson. Join journalist Mikael Blomkvist and hacker Lisbeth Salander as they investigate a decades-old disappearance and unveil a web of dark secrets.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/The_Girl_with_the_Dragon_Tattoo_book_cover.jpg/640px-The_Girl_with_the_Dragon_Tattoo_book_cover.jpg",
+    "product_id": 16,
+    "brand": "Vintage",
+    "price": 13.49,
+    "tax_percentage": 7,
+    "rating": 4.8,
+    "metadata": "Mystery, investigation, dark secrets",
+    "timestamp": "25-10-23"
+  },
+  {
+    "product_name": "The Road",
+    "product_description": "A novel by Cormac McCarthy. Journey with a father and son as they navigate a post-apocalyptic world in search of safety and survival.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/The_Road_%28Cormac_McCarthy%29.jpg/640px-The_Road_%28Cormac_McCarthy%29.jpg",
+    "product_id": 17,
+    "brand": "Vintage",
+    "price": 11.99,
+    "tax_percentage": 6,
+    "rating": 4.6,
+    "metadata": "Post-apocalyptic, survival, father-son journey",
+    "timestamp": "26-10-23"
+  },
+  {
+    "product_name": "Dune",
+    "product_description": "A novel by Frank Herbert. Immerse yourself in the desert world of Arrakis, where political intrigue, environmentalism, and prophecy collide in a battle for control over the most valuable substance in the universe.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Dune-Frank_Herbert-1965-Cover-1st_Edition.jpg/640px-Dune-Frank_Herbert-1965-Cover-1st_Edition.jpg",
+    "product_id": 18,
+    "brand": "Ace",
+    "price": 15.99,
+    "tax_percentage": 8,
+    "rating": 4.9,
+    "metadata": "Science fiction, politics, prophecy",
+    "timestamp": "27-10-23"
+  },
+  {
+    "product_name": "The Chronicles of Narnia",
+    "product_description": "A series by C.S. Lewis. Enter the magical world of Narnia, where children discover talking animals, mythical creatures, and epic battles between good and evil.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Narnia_box_set.jpg/640px-Narnia_box_set.jpg",
+    "product_id": 19,
+    "brand": "HarperCollins",
+    "price": 14.99,
+    "tax_percentage": 7,
+    "rating": 4.7,
+    "metadata": "Fantasy, magical world, epic battles",
+    "timestamp": "28-10-23"
+  },
+  {
+    "product_name": "The Hitchhiker's Guide to the Galaxy",
+    "product_description": "A series by Douglas Adams. Join Arthur Dent on a hilarious and absurd journey through space and time with the help of his trusty electronic guide, the Hitchhiker's Guide to the Galaxy.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/H2G2_English_front_cover.jpg/640px-H2G2_English_front_cover.jpg",
+    "product_id": 20,
+    "brand": "DelRey",
+    "price": 12.49,
+    "tax_percentage": 6,
+    "rating": 4.6,
+    "metadata": "Science fiction, humor, space travel",
+    "timestamp": "29-10-23"
+  },
+  {
+    "product_name": "The Great Gatsby",
+    "product_description": "A novel by F. Scott Fitzgerald. Set in the Roaring Twenties, The Great Gatsby is a classic tale of wealth, love, and betrayal. Follow the enigmatic Jay Gatsby as he pursues the American Dream amidst opulence and decadence.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/640px-The_Great_Gatsby_Cover_1925_Retouched.jpg",
+    "product_id": 21,
+    "brand": "VintageBooks",
+    "price": 10.99,
+    "tax_percentage": 8,
+    "rating": 4.5,
+    "metadata": "Classic literature, wealth, love, betrayal",
+    "timestamp": "10-10-23"
+  },
+  {
+    "product_name": "To Kill a Mockingbird",
+    "product_description": "A novel by Harper Lee. To Kill a Mockingbird explores issues of racism and moral growth in the American South. Join Scout Finch as she learns valuable life lessons from her father, Atticus Finch.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/640px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+    "product_id": 22,
+    "brand": "HarperPerennial",
+    "price": 12.99,
+    "tax_percentage": 7,
+    "rating": 4.8,
+    "metadata": "Classic literature, racism, moral growth",
+    "timestamp": "11-10-23"
+  },
+  {
+    "product_name": "1984",
+    "product_description": "A novel by George Orwell. 1984 is a dystopian classic that explores the dangers of totalitarianism and surveillance in a bleak future. Follow Winston Smith as he rebels against the oppressive Party.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Nineteen_Eighty-Four_cover_Soviet_1984.jpg/640px-Nineteen_Eighty-Four_cover_Soviet_1984.jpg1984.jpg",
+    "product_id": 23,
+    "brand": "PenguinBooks",
+    "price": 9.99,
+    "tax_percentage": 6,
+    "rating": 4.7,
+    "metadata": "Dystopian fiction, totalitarianism, surveillance",
+    "timestamp": "12-10-23"
+  },
+  {
+    "product_name": "The Catcher in the Rye",
+    "product_description": "A novel by J.D. Salinger. Follow the adventures of Holden Caulfield, a disillusioned teenager navigating the complexities of adolescence in New York City.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Catcher-in-the-rye-red-cover.jpg/640px-Catcher-in-the-rye-red-cover.jpg",
+    "product_id": 24,
+    "brand": "LittleBrown",
+    "price": 11.99,
+    "tax_percentage": 8,
+    "rating": 4.3,
+    "metadata": "Comingofage, adolescence, NewYorkCity",
+    "timestamp": "13-10-23"
+  },
+  {
+    "product_name": "Pride and Prejudice",
+    "product_description": "A novel by Jane Austen. Dive into the world of matchmaking and societal expectations in 19th-century England as Elizabeth Bennet and Mr. Darcy navigate love and class.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/640px-PrideAndPrejudiceTitlePage.jpg",
+    "product_id": 25,
+    "brand": "PenguinClassics",
+    "price": 10.49,
+    "tax_percentage": 7,
+    "rating": 4.6,
+    "metadata": "Classicliterature, love, class, matchmaking",
+    "timestamp": "14-10-23"
+  },
+  {
+    "product_name": "The Hobbit",
+    "product_description": "A novel by J.R.R. Tolkien. Embark on a grand adventure with Bilbo Baggins as he joins a group of dwarves to reclaim their homeland from the fearsome dragon, Smaug.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Hobbit_%281982%29.png/640px-The_Hobbit_%281982%29.png",
+    "product_id": 26,
+    "brand": "MarinerBooks",
+    "price": 14.99,
+    "tax_percentage": 6,
+    "rating": 4.9,
+    "metadata": "Fantasy, adventure, dragon",
+    "timestamp": "15-10-23"
+  },
+  {
+    "product_name": "The Lord of the Rings",
+    "product_description": "A trilogy by J.R.R. Tolkien. Join Frodo Baggins on his epic quest to destroy the One Ring and save Middle-earth from the dark lord Sauron.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_rose_and_the_ring%3B_or%2C_The_history_of_Prince_Giglio_and_Prince_Bulbo%3B_a_fireside_pantomime_for_great_and_small_children_%281901%29_%2814591638938%29.jpg/640px-The_rose_and_the_ring%3B_or%2C_The_history_of_Prince_Giglio_and_Prince_Bulbo%3B_a_fireside_pantomime_for_great_and_small_children_%281901%29_%2814591638938%29.jpg",
+    "product_id": 27,
+    "brand": "MarinerBooks",
+    "price": 24.99,
+    "tax_percentage": 6,
+    "rating": 4.8,
+    "metadata": "Fantasy, epic quest, Middle-earth",
+    "timestamp": "16-10-23"
+  },
+  {
+    "product_name": "Harry Potter and the Sorcerer's Stone",
+    "product_description": "A novel by J.K. Rowling. Enter the enchanting world of wizards and witches as Harry Potter discovers his magical heritage at Hogwarts School of Witchcraft and Wizardry.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Harry_Potter.jpg/640px-Harry_Potter.jpg",
+    "product_id": 28,
+    "brand": "Scholastic",
+    "price": 12.99,
+    "tax_percentage": 7,
+    "rating": 4.7,
+    "metadata": "Fantasy, magic, Hogwarts",
+    "timestamp": "17-10-23"
+  },
+  {
+    "product_name": "The Shining",
+    "product_description": "A novel by Stephen King. Follow Jack Torrance as he takes a job as the winter caretaker at the isolated Overlook Hotel, where supernatural forces threaten his sanity and his family.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shiningnovel.jpg/640px-Shiningnovel.jpg",
+    "product_id": 29,
+    "brand": "Anchor",
+    "price": 13.49,
+    "tax_percentage": 6,
+    "rating": 4.6,
+    "metadata": "Horror, supernatural, isolation",
+    "timestamp": "18-10-23"
+  },
+  {
+    "product_name": "Moby-Dick",
+    "product_description": "A novel by Herman Melville. Join Captain Ahab on a vengeful quest to hunt down the giant white whale, Moby Dick, in this epic tale of obsession and the sea.",
+    "img_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Moby-Dick_FE_title_page.jpg/640px-Moby-Dick_FE_title_page.jpg",
+    "product_id": 30,
+    "brand": "PenguinClassics",
+    "price": 11.99,
+    "tax_percentage": 8,
+    "rating": 4.5,
+    "metadata": "Adventure, obsession, sea",
+    "timestamp": "19-10-23"
+  }
+]
