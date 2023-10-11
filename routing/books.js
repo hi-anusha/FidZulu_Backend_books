@@ -19,7 +19,7 @@ function calculateTax(json, percent) {
     for (let book of json) {
         console.log(book.price);
         book.price =book.price+ ( book.price * (percent));
-        book.taxPercentage=percent*100;
+        book.tax_percentage=percent*100;
         console.log(book.price);
     }
     console.log(json);
