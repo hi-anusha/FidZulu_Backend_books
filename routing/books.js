@@ -14,44 +14,79 @@ exports.list = () => {
     return JSON.parse(read_json_file());
 };
 
-function computePrice(json, percent) {
+function calculateTax(json, percent) {
     percent = percent / 100;
-    for (let laptop of json) {
-        console.log(laptop.price);
-        laptop.price = laptop.price * (1 + percent)
-        console.log(laptop.price);
+    for (let book of json) {
+        console.log(book.price);
+        book.price =book.price+ ( book.price * (percent));
+        book.taxPercentage=percent*100;
+        console.log(book.price);
     }
     console.log(json);
     return json
 }
 
 
-/* GET users listing. */
-router.get('/books/all/:location?', function(req, res, next) {
+
+router.get('/all/:location?', function(req, res, next) {
     let json_result = JSON.parse(read_json_file());
 
     let location = req.params.location;
+    const {minprice, maxprice, rating, brand} = req.query;
+
     if (location) {
-        location = location.toLocaleLowerCase();
-        console.log(`recieved location: ${location}`);
-        if (location === 'India') {
-            json_result = computePrice(json_result, 18);
-        } else if (location === 'Ireland') {
-            console.log("TEST");
-            json_result = computePrice(json_result, 23);
+      
+        if (location === 'IN') {
+            json_result = calculateTax(json_result, 18);
+        } else if (location === 'IE') {
+            
+            json_result = calculateTax(json_result, 23);
         } 
-        else if (location === 'North Carolina') {
-            console.log("TEST");
-            json_result = computePrice(json_result, 8);
+        else if (location === 'US-NC') {
+           
+            json_result = calculateTax(json_result, 8);
         }else {
             console.log('not a valid location');
         }
     }
-    res.json(json_result);
+
+    
+
+    const filteredData = json_result.filter((book) => {
+        if (minprice !== undefined && book.price < minprice) {
+          return false;
+        }
+    
+        if (maxprice !== undefined && book.price > maxprice) {
+           return false;
+        }
+    
+        if (rating !== undefined && book.rating < rating) {
+           return false;
+        }
+    
+        if (brand !== undefined && book.brand !== brand) {
+           return false;
+        }
+    
+        return true;
+       });
+
+    
+    res.json(filteredData);
 });
 
-router.get('/books/team', function(req, res, next) {
+router.get('/team', function(req, res, next) {
     res.json(team)
 })
+
+router.get('/search',(req,res,next)=>{
+   
+    let jsonResult = JSON.parse(read_json_file());
+    
+     
+});
+
+
 
 module.exports = router;
