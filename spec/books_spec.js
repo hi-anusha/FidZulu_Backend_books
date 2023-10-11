@@ -44,6 +44,25 @@ describe("Book endpoint testing", function () {
         })
     })
 
+    describe("Get query parameters along with location", () => {
+        it("should return books with Ireland tax and maxprice and minprice filter ", (done) => {
+            request.get(base_url + 'books/all/IE?minprice=10&maxprice=12', (error, response, body) => {
+                expect(response.statusCode).toBe(200);
+                expect(response.body).toContain("The Road Less Traveled");
+                expect(response.body).toContain("Touchstone");
+                done();
+            });
+        })
+        it("should return prices with India tax", (done) => {
+            request.get(base_url + 'books/all/IN?brand=VintageBooks', (errpr, response, body) => {
+                expect(response.statusCode).toBe(200);
+                expect(response.body).toContain("The Great Gatsby");
+                expect(response.body).toContain("Classic literature, wealth, love, betrayal");
+                done();
+            })
+        })
+    })
+
 
     describe("Get /books/team", () => {
         it("should return team members names.", (done) => {
@@ -59,28 +78,5 @@ describe("Book endpoint testing", function () {
 
   
 
-    describe("Get /books/search?minprice=10&maxprice=12", () => {
-        it("should return books between minprice=10 and maxprice=12.", (done) => {
-            request.get(base_url + 'books/search?minprice=10&maxprice=12', (error, response, body) => {
-                expect(response.statusCode).toBe(200);
-                expect(response.body).toContain("The Catcher in the Rye");
-                expect(response.body).toContain("LittleBrown");
-                done();
-            });
-        })
-      
-    })
-
-
-    describe("Get /books/search?rating=4", () => {
-        it("should return books having rating greater than 4", (done) => {
-            request.get(base_url + 'books/search?rating=4', (error, response, body) => {
-                expect(response.statusCode).toBe(200);
-                expect(response.body).toContain("The Hobbit");
-                expect(response.body).toContain("MarinerBooks");
-                done();
-            });
-        })
-      
-    })
+    
 });
