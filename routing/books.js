@@ -17,12 +17,12 @@ exports.list = () => {
 function calculateTax(json, percent) {
     percent = percent / 100;
     for (let book of json) {
-        console.log(book.price);
+        
         book.price =book.price+ ( book.price * (percent));
         book.tax_percentage=percent*100;
-        console.log(book.price);
+        
     }
-    console.log(json);
+   
     return json
 }
 
