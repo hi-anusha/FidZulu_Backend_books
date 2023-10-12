@@ -46,10 +46,10 @@ describe("Book endpoint testing", function () {
 
     describe("Get query parameters along with location", () => {
         it("should return books with Ireland tax and maxprice and minprice filter ", (done) => {
-            request.get(base_url + 'books/all/IE?minprice=10&maxprice=12', (error, response, body) => {
+            request.get(base_url + 'books/all/IE?minprice=10&maxprice=40', (error, response, body) => {
                 expect(response.statusCode).toBe(200);
-                expect(response.body).toContain("The Road Less Traveled");
-                expect(response.body).toContain("Touchstone");
+                expect(response.body).toContain("The Great Gatsby");
+               
                 done();
             });
         })

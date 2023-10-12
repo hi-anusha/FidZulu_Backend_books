@@ -29,12 +29,12 @@ app.use(function(req, res, next) {
 app.use(function(err, req, res, next) {
   console.error(err.stack);
   // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+  //res.locals.message = err.message;
+ // res.locals.error = req.app.get('env') === 'development' ? err : {};
 
   res.status(err.status || 500);
   // render the error page
-  res.json({ error: err })
+  res.json()
 });
 
 app.listen(port, () => console.log(`Hello world app listening on port ${port}!`))
